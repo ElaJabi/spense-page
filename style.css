@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --grey: rgb(92, 92, 92);
+}
+
+html {
+    font-size: 90%;
+}
+
+section {
+    padding: 2rem 7%;
+}
+
+.top-info {
+    padding: 15px 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.top-info span {
+    text-decoration: underline;
+}
+
+.header {
+    background-color: rgb(225, 225, 225);
+    min-height: 100vh;
+}
+
+.header .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 7%;
+}
+
+.header .navigation .logo p {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.header .navigation .navbar {
+    display: flex;
+    margin-top: 5px;
+}
+
+.header .navigation .navbar ul {
+    display: flex;
+}
+
+.header .navigation .navbar ul li {
+    list-style: none;
+}
+
+.header .navigation .navbar ul li a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.header .navigation .login-btn {
+    margin-top: 5px;
+    overflow: none;
+}
+
+.header .navigation .login-btn a {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.header .navigation .login-btn a:last-child {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.header .hero {
+    padding: 2rem 7%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.header .hero .left-side {
+    flex: 1 1 20rem;
+    
+}
+
+.header .hero .left-side .content {
+    width: 80%;
+}
+
+.header .hero .left-side .content h1 {
+    font-size: 3rem;
+    font-weight: 500;
+
+
+}
+
+.header .hero .left-side .content p {
+    color: var(--grey);
+    padding: 1rem 0;
+}
+
+
+.header .hero .left-side .checkmarks span {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.header .hero .left-side .checkmarks p {
+    margin-left:10px;
+}
+
+.header .hero .left-side .form {
+   
+}
+
+.header .hero .left-side .form input {
+    padding: 10px 15px;
+    border:rgb(92, 92, 92, .5) 1px solid;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+    
+}
+
+.header .hero .left-side .form a {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+.header .hero .right-side {
+    flex: .5 .5 20rem; 
+}
+
+.header .hero .right-side img {
+    width: 100%;
+    position: relative;  
+}
+
+.image-brand {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.image-brand img {
+    max-width: 100px;
+}
+
+.container .box {
+    display: flex;
+    
+    flex-wrap: wrap;
+    background-color: rgb(225, 225, 225);
+    padding: 2rem 7%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.container .box .left-side {
+    flex: 1 1 20rem;
+}
+
+.container .box .left-side h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    width: 70%;
+
+}
+
+.container .box .left-side p {
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    color: var(--grey);
+    width: 60%;
+}
+
+.container .box .left-side a {
+    color: var(--grey);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.container .box .right-side {
+    flex: 1 1 20rem;
+}
+
+.container .box .right-side img {
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+.container .edit-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.container .edit-box .left-side {
+    flex: 1 1 30rem;
+}
+
+.container .edit-box .right-side {
+    flex: 1 1 30rem;
+}
+
+.container .edit-box .right-side h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.container .edit-box .right-side p {
+    padding: 1rem 0;
+    font-size:1.2rem;
+    color:var(--grey);
+    
+}
+
+.container .edit-box .right-side a {
+    color: var(--grey);
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.container .edit-box .left-side img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 7%;
+    background-color: rgb(23, 22, 22);
+    color: white;
+}
+
+.footer h4 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer p {
+    color: var(--grey);
+    width: 50%;
+    font-size: 1rem;
+}
+
+.footer .info-spense {
+    width: 40%;
+}
+
+.footer .footer-nav ul {
+    list-style: none;
+
+}
+
+.footer .footer-nav ul li a {
+    color: var(--grey);
+    text-decoration: none;
+}
+
+#mainMenu {
+    display: inline-block;
+}
+
+#openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+    
+}
+
+#closeMenu {
+    font-size: 3rem;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    cursor: pointer;
+
+}
+
+#mobile {
+    display: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+
+
+    html {
+        font-size: 80%;
+    }
+
+    
+
+    .header .navigation .navbar {
+        display: none;
+    }
+
+    .header .navigation .login-btn {
+        display: none;
+    }
+
+    .header .hero {
+        padding: 1rem 2rem;
+    }
+
+    .header .hero .left-side .content {
+        width: 100%;
+    }
+
+    .header .hero .left-side .content h1 {
+        font-size: 2rem;
+    }
+
+    .image-brand {
+        display:none;
+    }
+
+    .container .box .left-side p {
+        width: 100%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        gap: 4rem; 
+    }
+
+    .footer p {
+        width: 100%;
+        padding-top: .5rem;
+    }
+
+    .footer .info-spense {
+        width: 100%;
+    }
+
+
+    /*hamburger-menu*/
+
+    #mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        display: none;
+        flex-direction: column;
+        padding-top: 3rem;
+        background-color: black;
+        transition: top 1s ease;
+        
+    }
+
+    #mainMenu ul {
+        color: white;
+        display: block;
+        text-align: center;
+    }
+
+    #mainMenu ul li a {
+        color: white;
+        font-size: 2rem;
+        
+    }
+
+    #mainMenu ul li a:hover {
+        color: red;
+    }
+
+
+    #openMenu {
+        display: block;
+    }
+
+    #openMenu img {
+        position: absolute;
+        top: 100px;
+    }
+
+    #closeMenu {
+        font-size: 3rem;
+        position: absolute;
+        right: 20px;
+        top: 0;
+        cursor: pointer;
+        
+    }
+   
+}
+
+@media (max-width: 471px) {
+
+    #openMenu img {
+        position: absolute;
+        top: 120px;
+    }
+}
